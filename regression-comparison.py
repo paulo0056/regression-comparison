@@ -68,7 +68,7 @@ print(f"Melhores parâmetros do Random Forest: {grid_rf.best_params_}")
 
 #  Mostrar previsões
 print(f"Valor real: {REAL_2023}")
-print("📊 Previsões para 2023:")
+print("Previsões para 2023:")
 print(f"Linear: {int(prev_linear[0])}")
 print(f"Diferença entre real e previsto: {int(prev_linear[0] - REAL_2023)}")
 print(f"Polinomial (grau 2): {int(prev_poly[0])}")
